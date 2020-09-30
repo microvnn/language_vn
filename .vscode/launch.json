@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "stopOnEntry": false,
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "DEV_MODE": "true",
+                "PYTHONPATH": "${workspaceRoot}",
+                "http_proxy": "http://proxy.fo.com:80",
+                "https_proxy": "http://proxy.fo.com:80",
+                "no_proxy": "127.0.0.1, localhost, localhost:7687, localhost:9000, localhost:9200, 180.148.142.89"
+            }
+        }
+    ]
+}
