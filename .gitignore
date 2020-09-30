@@ -1,19 +1,4 @@
-es_client.py
-fb.py
-fb.sh
-temp
-tools
-logger
-data
-testing
-output
-nlp/docsvec
-nlp/locations/raw
-nlp/named/data/data_v1/m
-nlp/named/data/data_v1/un_bk
-nlp/vn_core_nlp
-nlp/test
-vi_spacy_model-0.2.1
+.vscode
 .history
 
 # Byte-compiled / optimized / DLL files
