@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from word_tokenize.utility.Utils import getWordTag, readDictionary
+from language_vn.word_tokenize.utility.Utils import getWordTag, readDictionary
 import os
 import sys
 os.chdir("../")

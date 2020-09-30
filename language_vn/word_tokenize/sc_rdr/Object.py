@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-from word_tokenize.sc_rdr.WordTag import WordTag
-from word_tokenize.vocabulary import Vocabulary
+from language_vn.word_tokenize.sc_rdr.WordTag import WordTag
+from language_vn.word_tokenize.vocabulary import Vocabulary
 
 attributes = [
     'W-2', 'T-2',

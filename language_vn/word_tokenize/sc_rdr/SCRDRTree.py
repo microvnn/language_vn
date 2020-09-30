@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-from word_tokenize.sc_rdr.Node import Node
-from word_tokenize.sc_rdr.Object import FWObject
+from language_vn.word_tokenize.sc_rdr.Node import Node
+from language_vn.word_tokenize.sc_rdr.Object import FWObject
 
 
 def xrange(x):
@@ -184,7 +184,7 @@ def getCondition(strCondition) -> FWObject:
 
 if __name__ == "__main__":
     from os import path
-    from word_tokenize.utility.Config import NUMBER_OF_PROCESSES, THRESHOLD
+    from language_vn.word_tokenize.utility.Config import NUMBER_OF_PROCESSES, THRESHOLD
     curdir = path.join(path.dirname(path.dirname(__file__)), 'data')
     cdr_file = path.join(curdir, 'wordsegmenter.rdr')
     root = SCRDRTree()

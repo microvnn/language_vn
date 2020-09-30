@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from word_tokenize.sc_rdr.Object import FWObject
+from language_vn.word_tokenize.sc_rdr.Object import FWObject
 
 
 class Node:

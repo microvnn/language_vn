@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 
-from word_tokenize.sc_rdr.SCRDRTree import SCRDRTree
-from word_tokenize.utility.rules import normalize_str
+from language_vn.word_tokenize.sc_rdr.SCRDRTree import SCRDRTree
+from language_vn.word_tokenize.utility.rules import normalize_str
 from os import path
-from word_tokenize.regex_tokenize import tokenize
-from word_tokenize.sc_rdr.WordTag import WordTag
-from word_tokenize.vocabulary import Vocabulary
-from word_tokenize.sc_rdr.Object import FWObject
-from word_tokenize.sc_rdr.Node import Node
+from language_vn.word_tokenize.regex_tokenize import tokenize
+from language_vn.word_tokenize.sc_rdr.WordTag import WordTag
+from language_vn.word_tokenize.vocabulary import Vocabulary
+from language_vn.word_tokenize.sc_rdr.Object import FWObject
+from language_vn.word_tokenize.sc_rdr.Node import Node
 from util.singleton import Singleton
 import re
 

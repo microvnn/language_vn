@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from word_tokenize.utility.Utils import getWordTag
+from language_vn.word_tokenize.utility.Utils import getWordTag
 import re
 import os
 import sys
