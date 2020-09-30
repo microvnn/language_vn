@@ -1,0 +1,4 @@
+python-crfsuite==0.9.6
+nltk>=3.4
+unidecode
+pickle
